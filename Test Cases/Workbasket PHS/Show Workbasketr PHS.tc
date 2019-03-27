@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test case ini berfungsi untuk menampilkan halaman workbasket PHS</description>
+   <name>Show Workbasketr PHS</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>da36c295-c282-45e2-84a4-b51e1537c6b4</testCaseGuid>
+</TestCaseEntity>

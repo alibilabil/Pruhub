@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test case ini berfungsi untuk menampilkan halaman Contact Detail</description>
+   <name>View Policy Holder</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>13b3c893-9081-4ebe-8529-76dd54319a30</testCaseGuid>
+</TestCaseEntity>
