@@ -9,6 +9,11 @@ import com.kms.katalon.core.main.TestCaseMain
  */
 public class GlobalVariable {
      
+    /**
+     * <p>Profile GlobalVariable : URL of Pruhub</p>
+     */
+    public static Object G_URL
+     
 
     static {
         try {
@@ -16,6 +21,7 @@ public class GlobalVariable {
 			selectedVariables += TestCaseMain.getGlobalVariables(RunConfiguration.getExecutionProfile())
             selectedVariables += RunConfiguration.getOverridingParameters()
     
+            G_URL = selectedVariables['G_URL']
             
         } catch (Exception e) {
             TestCaseMain.logGlobalVariableError(e)

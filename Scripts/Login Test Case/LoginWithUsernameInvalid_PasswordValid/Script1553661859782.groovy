@@ -8,11 +8,11 @@ import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
 import com.kms.katalon.core.model.FailureHandling as FailureHandling
 import com.kms.katalon.core.testcase.TestCase as TestCase
 import com.kms.katalon.core.testdata.TestData as TestData
+import com.kms.katalon.core.testobject.ObjectRepository
 import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
-
 'Open browser'
 WebUI.openBrowser('')
 
@@ -22,11 +22,14 @@ WebUI.maximizeWindow()
 'Navigate to url'
 WebUI.navigateToUrl(GlobalVariable.G_URL)
 
-'Mengisi field username'
-WebUI.setText(findTestObject('Object Repository/LoginObjectRepository/input_PRU_username'), 'ahmadfa')
+'Mengisi field username dengan invalid username'
+WebUI.setText(findTestObject('Object Repository/LoginObjectRepository/input_PRU_username'), 'ahmadfafa')
 
 'Mengisi field password'
 WebUI.setEncryptedText(findTestObject('Object Repository/LoginObjectRepository/input_PRU_password'), 'p4y+y39Ir5Pr+DHIKlVoLw==')
 
 'Klik button login'
 WebUI.click(findTestObject('Object Repository/LoginObjectRepository/span_Login'))
+
+'Wait for failed message to be present'
+WebUI.waitForElementPresent(findTestObject('Object Repository/LoginObjectRepository/h2_Login Failed'), 10)

@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login Test Suite" time="152" tests="3" failures="1" errors="0">
+   <testsuite name="Login Test Suite" tests="3" failures="1" errors="0" time="152" timestamp="2019-03-27 14:45:31" hostname="c19679 - LIDLIFE38B0WS.PRU.intranet.asia" id="Test Suites/Test Suite Login/Login Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\c19679\\Katalon Studio\\Pruhub\\Reports\\Test Suite Login\\Login Test Suite\\20190327_144524"/>
+         <property name="logFiles" value="C:\\Users\\c19679\\Katalon Studio\\Pruhub\\Reports\\Test Suite Login\\Login Test Suite\\20190327_144524\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\c19679\\Katalon Studio\\Pruhub\\Reports\\Test Suite Login\\Login Test Suite\\20190327_144524\\1553669244581.png"/>
+         <property name="hostName" value="c19679 - LIDLIFE38B0WS.PRU.intranet.asia"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="6.1.0.1"/>
+         <property name="browser" value="Firefox 66.0"/>
+         <property name="hostAddress" value="192.168.1.132"/>
+         <property name="sessionId" value="b23b6994-eef3-474b-bba0-b33331c9b094"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Login Test Case/LoginWithUsernameInvalid_PasswordInvalid" classname="Test Cases/Login Test Case/LoginWithUsernameInvalid_PasswordInvalid" status="PASSED">
+         <system-out><![CDATA[2019-03-27 14:45:31 - [TEST_CASE][PASSED] - Test Cases/Login Test Case/LoginWithUsernameInvalid_PasswordInvalid: Test Cases/Login Test Case/LoginWithUsernameInvalid_PasswordInvalid
+
+2019-03-27 14:45:32 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-03-27 14:45:32 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-03-27 14:45:32 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-03-27 14:45:58 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-03-27 14:45:58 - [TEST_STEP][PASSED] - navigateToUrl(G_URL): Navigate to 'https://pruhub-uat.pru.intranet.asia/pruhub-2-phs/#/login' successfully
+
+2019-03-27 14:46:08 - [MESSAGE][PASSED] - Navigate to 'https://pruhub-uat.pru.intranet.asia/pruhub-2-phs/#/login' successfully
+
+2019-03-27 14:46:08 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/LoginObjectRepository/input_PRU_username"), "ahmadfafa"): Text 'ahmadfafa' is set on object 'Object Repository/LoginObjectRepository/input_PRU_username'
+
+2019-03-27 14:46:09 - [MESSAGE][PASSED] - Text 'ahmadfafa' is set on object 'Object Repository/LoginObjectRepository/input_PRU_username'
+
+2019-03-27 14:46:09 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/LoginObjectRepository/input_PRU_password"), "p4y+y39Ir5N5JYrRUXcXiQ=="): Text ****** has been set on object 'Object Repository/LoginObjectRepository/input_PRU_password'
+
+2019-03-27 14:46:09 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/LoginObjectRepository/input_PRU_password'
+
+2019-03-27 14:46:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/LoginObjectRepository/span_Login")): Object: 'Object Repository/LoginObjectRepository/span_Login' is clicked on
+
+2019-03-27 14:46:09 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginObjectRepository/span_Login' is clicked on
+
+2019-03-27 14:46:09 - [TEST_STEP][PASSED] - verifyTextPresent("Login Failed", false): Text 'Login Failed' is present on page 
+
+2019-03-27 14:46:09 - [MESSAGE][PASSED] - Text 'Login Failed' is present on page]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login Test Case/LoginWithUsernameInvalid_PasswordValid" classname="Test Cases/Login Test Case/LoginWithUsernameInvalid_PasswordValid" status="PASSED">
+         <system-out><![CDATA[2019-03-27 14:46:09 - [TEST_CASE][PASSED] - Test Cases/Login Test Case/LoginWithUsernameInvalid_PasswordValid: Test Cases/Login Test Case/LoginWithUsernameInvalid_PasswordValid
+
+2019-03-27 14:46:10 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-03-27 14:46:10 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-03-27 14:46:11 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-03-27 14:46:37 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-03-27 14:46:37 - [TEST_STEP][PASSED] - navigateToUrl(G_URL): Navigate to 'https://pruhub-uat.pru.intranet.asia/pruhub-2-phs/#/login' successfully
+
+2019-03-27 14:46:46 - [MESSAGE][PASSED] - Navigate to 'https://pruhub-uat.pru.intranet.asia/pruhub-2-phs/#/login' successfully
+
+2019-03-27 14:46:46 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/LoginObjectRepository/input_PRU_username"), "ahmadfafa"): Text 'ahmadfafa' is set on object 'Object Repository/LoginObjectRepository/input_PRU_username'
+
+2019-03-27 14:46:46 - [MESSAGE][PASSED] - Text 'ahmadfafa' is set on object 'Object Repository/LoginObjectRepository/input_PRU_username'
+
+2019-03-27 14:46:46 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/LoginObjectRepository/input_PRU_password"), "p4y+y39Ir5Pr+DHIKlVoLw=="): Text ****** has been set on object 'Object Repository/LoginObjectRepository/input_PRU_password'
+
+2019-03-27 14:46:46 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/LoginObjectRepository/input_PRU_password'
+
+2019-03-27 14:46:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/LoginObjectRepository/span_Login")): Object: 'Object Repository/LoginObjectRepository/span_Login' is clicked on
+
+2019-03-27 14:46:47 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginObjectRepository/span_Login' is clicked on
+
+2019-03-27 14:46:47 - [TEST_STEP][PASSED] - verifyTextPresent("Login Failed", false): Text 'Login Failed' is present on page 
+
+2019-03-27 14:46:47 - [MESSAGE][PASSED] - Text 'Login Failed' is present on page]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login Test Case/LoginWithUsernameValid_PasswordInvalid" classname="Test Cases/Login Test Case/LoginWithUsernameValid_PasswordInvalid" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Login Test Case/LoginWithUsernameValid_PasswordInvalid FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Login Failed' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1693)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$4.call(Unknown Source)
+	at LoginWithUsernameValid_PasswordInvalid.run(LoginWithUsernameValid_PasswordInvalid:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1553669124211.run(TempTestSuite1553669124211.groovy:35)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Login Failed' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2019-03-27 14:46:47 - [TEST_CASE][FAILED] - Test Cases/Login Test Case/LoginWithUsernameValid_PasswordInvalid: Test Cases/Login Test Case/LoginWithUsernameValid_PasswordInvalid FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Login Failed' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1693)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$4.call(Unknown Source)
+	at LoginWithUsernameValid_PasswordInvalid.run(LoginWithUsernameValid_PasswordInvalid:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1553669124211.run(TempTestSuite1553669124211.groovy:35)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Login Failed' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2019-03-27 14:46:47 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-03-27 14:46:47 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-03-27 14:46:49 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-03-27 14:47:14 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-03-27 14:47:14 - [TEST_STEP][PASSED] - navigateToUrl(G_URL): Navigate to 'https://pruhub-uat.pru.intranet.asia/pruhub-2-phs/#/login' successfully
+
+2019-03-27 14:47:23 - [MESSAGE][PASSED] - Navigate to 'https://pruhub-uat.pru.intranet.asia/pruhub-2-phs/#/login' successfully
+
+2019-03-27 14:47:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/LoginObjectRepository/input_PRU_username"), "ahmadfa"): Text 'ahmadfa' is set on object 'Object Repository/LoginObjectRepository/input_PRU_username'
+
+2019-03-27 14:47:23 - [MESSAGE][PASSED] - Text 'ahmadfa' is set on object 'Object Repository/LoginObjectRepository/input_PRU_username'
+
+2019-03-27 14:47:23 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/LoginObjectRepository/input_PRU_password"), "p4y+y39Ir5N5JYrRUXcXiQ=="): Text ****** has been set on object 'Object Repository/LoginObjectRepository/input_PRU_password'
+
+2019-03-27 14:47:23 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/LoginObjectRepository/input_PRU_password'
+
+2019-03-27 14:47:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/LoginObjectRepository/span_Login")): Object: 'Object Repository/LoginObjectRepository/span_Login' is clicked on
+
+2019-03-27 14:47:24 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginObjectRepository/span_Login' is clicked on
+
+2019-03-27 14:47:24 - [TEST_STEP][FAILED] - verifyTextPresent("Login Failed", false): verifyTextPresent("Login Failed", false) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Login Failed' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1693)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$4.call(Unknown Source)
+	at LoginWithUsernameValid_PasswordInvalid.run(LoginWithUsernameValid_PasswordInvalid:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1553669124211.run(TempTestSuite1553669124211.groovy:35)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Login Failed' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2019-03-27 14:47:24 - [MESSAGE][FAILED] - Text 'Login Failed' is not present on page  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Login Failed' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1693)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$4.call(Unknown Source)
+	at LoginWithUsernameValid_PasswordInvalid.run(LoginWithUsernameValid_PasswordInvalid:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1553669124211.run(TempTestSuite1553669124211.groovy:35)
+)
+
+2019-03-27 14:47:24 - [MESSAGE][FAILED] - Unable to verify text 'Login Failed' is present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Login Failed' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1693)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$4.call(Unknown Source)
+	at LoginWithUsernameValid_PasswordInvalid.run(LoginWithUsernameValid_PasswordInvalid:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1553669124211.run(TempTestSuite1553669124211.groovy:35)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Login Failed' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+[[ATTACHMENT|C:\\Users\\c19679\\Katalon Studio\\Pruhub\\Reports\\Test Suite Login\\Login Test Suite\\20190327_144524\\1553669244581.png]]
+
+2019-03-27 14:47:24 - [MESSAGE][FAILED] - verifyTextPresent("Login Failed", false) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Login Failed' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1693)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$4.call(Unknown Source)
+	at LoginWithUsernameValid_PasswordInvalid.run(LoginWithUsernameValid_PasswordInvalid:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1553669124211.run(TempTestSuite1553669124211.groovy:35)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Login Failed' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+         <system-err><![CDATA[2019-03-27 14:46:47 - [TEST_CASE][FAILED] - Test Cases/Login Test Case/LoginWithUsernameValid_PasswordInvalid: Test Cases/Login Test Case/LoginWithUsernameValid_PasswordInvalid FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Login Failed' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1693)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$4.call(Unknown Source)
+	at LoginWithUsernameValid_PasswordInvalid.run(LoginWithUsernameValid_PasswordInvalid:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1553669124211.run(TempTestSuite1553669124211.groovy:35)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Login Failed' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login Test Case/LoginWithUsernameValid_PasswordValid" classname="Test Cases/Login Test Case/LoginWithUsernameValid_PasswordValid" status="PASSED">
+         <system-out><![CDATA[2019-03-27 14:47:24 - [TEST_CASE][PASSED] - Test Cases/Login Test Case/LoginWithUsernameValid_PasswordValid: Test Cases/Login Test Case/LoginWithUsernameValid_PasswordValid
+
+2019-03-27 14:47:25 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-03-27 14:47:25 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-03-27 14:47:26 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-03-27 14:47:51 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-03-27 14:47:51 - [TEST_STEP][PASSED] - navigateToUrl(G_URL): Navigate to 'https://pruhub-uat.pru.intranet.asia/pruhub-2-phs/#/login' successfully
+
+2019-03-27 14:48:01 - [MESSAGE][PASSED] - Navigate to 'https://pruhub-uat.pru.intranet.asia/pruhub-2-phs/#/login' successfully
+
+2019-03-27 14:48:01 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/LoginObjectRepository/input_PRU_username"), "ahmadfa"): Text 'ahmadfa' is set on object 'Object Repository/LoginObjectRepository/input_PRU_username'
+
+2019-03-27 14:48:01 - [MESSAGE][PASSED] - Text 'ahmadfa' is set on object 'Object Repository/LoginObjectRepository/input_PRU_username'
+
+2019-03-27 14:48:01 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/LoginObjectRepository/input_PRU_password"), "p4y+y39Ir5Pr+DHIKlVoLw=="): Text ****** has been set on object 'Object Repository/LoginObjectRepository/input_PRU_password'
+
+2019-03-27 14:48:01 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/LoginObjectRepository/input_PRU_password'
+
+2019-03-27 14:48:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/LoginObjectRepository/span_Login")): Object: 'Object Repository/LoginObjectRepository/span_Login' is clicked on
+
+2019-03-27 14:48:02 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginObjectRepository/span_Login' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-03-27 14:45:31 - [TEST_SUITE][FAILED] - Login Test Suite: Test Cases/Login Test Case/LoginWithUsernameValid_PasswordInvalid FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Login Failed' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1693)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$4.call(Unknown Source)
+	at LoginWithUsernameValid_PasswordInvalid.run(LoginWithUsernameValid_PasswordInvalid:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1553669124211.run(TempTestSuite1553669124211.groovy:35)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Login Failed' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2019-03-27 14:45:31 - [TEST_SUITE][FAILED] - Login Test Suite: Test Cases/Login Test Case/LoginWithUsernameValid_PasswordInvalid FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Login Failed' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1693)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$4.call(Unknown Source)
+	at LoginWithUsernameValid_PasswordInvalid.run(LoginWithUsernameValid_PasswordInvalid:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1553669124211.run(TempTestSuite1553669124211.groovy:35)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Login Failed' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

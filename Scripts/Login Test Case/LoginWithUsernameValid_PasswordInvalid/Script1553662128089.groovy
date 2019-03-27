@@ -26,7 +26,10 @@ WebUI.navigateToUrl(GlobalVariable.G_URL)
 WebUI.setText(findTestObject('Object Repository/LoginObjectRepository/input_PRU_username'), 'ahmadfa')
 
 'Mengisi field password'
-WebUI.setEncryptedText(findTestObject('Object Repository/LoginObjectRepository/input_PRU_password'), 'p4y+y39Ir5Pr+DHIKlVoLw==')
+WebUI.setEncryptedText(findTestObject('Object Repository/LoginObjectRepository/input_PRU_password'), 'p4y+y39Ir5N5JYrRUXcXiQ==')
 
 'Klik button login'
 WebUI.click(findTestObject('Object Repository/LoginObjectRepository/span_Login'))
+
+'Wait for failed message to be present'
+WebUI.waitForElementPresent(findTestObject('Object Repository/LoginObjectRepository/h2_Login Failed'), 10)

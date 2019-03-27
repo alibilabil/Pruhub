@@ -1,0 +1,33 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Login Test Suite,Firefox 66.0,,2019-03-27 14:45:31,2019-03-27 14:48:03,2m - 32.379s,FAILED
+,,,,,,
+Test Cases/Login Test Case/LoginWithUsernameInvalid_PasswordInvalid,Firefox 66.0,This test case is used to login with username and password invalid,2019-03-27 14:45:31,2019-03-27 14:46:09,38.452s,PASSED
+"openBrowser("""")",Firefox 66.0,Open browser,2019-03-27 14:45:32,2019-03-27 14:45:58,26.873s,PASSED
+navigateToUrl(G_URL),Firefox 66.0,Navigate to url,2019-03-27 14:45:58,2019-03-27 14:46:08,9.779s,PASSED
+"setText(findTestObject(""Object Repository/LoginObjectRepository/input_PRU_username""), ""ahmadfafa"")",Firefox 66.0,Mengisi field username,2019-03-27 14:46:08,2019-03-27 14:46:09,0.333s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/LoginObjectRepository/input_PRU_password""), ""p4y+y39Ir5N5JYrRUXcXiQ=="")",Firefox 66.0,Mengisi field password,2019-03-27 14:46:09,2019-03-27 14:46:09,0.208s,PASSED
+"click(findTestObject(""Object Repository/LoginObjectRepository/span_Login""))",Firefox 66.0,Klik button login,2019-03-27 14:46:09,2019-03-27 14:46:09,0.397s,PASSED
+"verifyTextPresent(""Login Failed"", false)",Firefox 66.0,Verifikasi bahwa user memang tidak berhasil login,2019-03-27 14:46:09,2019-03-27 14:46:09,0.292s,PASSED
+,,,,,,
+Test Cases/Login Test Case/LoginWithUsernameInvalid_PasswordValid,Firefox 66.0,This test case is used to login with username invalid and password valid,2019-03-27 14:46:09,2019-03-27 14:46:47,37.497s,PASSED
+"openBrowser("""")",Firefox 66.0,Open browser,2019-03-27 14:46:10,2019-03-27 14:46:37,26.692s,PASSED
+navigateToUrl(G_URL),Firefox 66.0,Navigate to url,2019-03-27 14:46:37,2019-03-27 14:46:46,9.466s,PASSED
+"setText(findTestObject(""Object Repository/LoginObjectRepository/input_PRU_username""), ""ahmadfafa"")",Firefox 66.0,Mengisi field username dengan invalid username,2019-03-27 14:46:46,2019-03-27 14:46:46,0.250s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/LoginObjectRepository/input_PRU_password""), ""p4y+y39Ir5Pr+DHIKlVoLw=="")",Firefox 66.0,Mengisi field password,2019-03-27 14:46:46,2019-03-27 14:46:46,0.116s,PASSED
+"click(findTestObject(""Object Repository/LoginObjectRepository/span_Login""))",Firefox 66.0,Klik button login,2019-03-27 14:46:46,2019-03-27 14:46:47,0.338s,PASSED
+"verifyTextPresent(""Login Failed"", false)",Firefox 66.0,Verifikasi bahwa user memang tidak berhasil login,2019-03-27 14:46:47,2019-03-27 14:46:47,0.232s,PASSED
+,,,,,,
+Test Cases/Login Test Case/LoginWithUsernameValid_PasswordInvalid,Firefox 66.0,This test case is used to login with username valid and password invalid,2019-03-27 14:46:47,2019-03-27 14:47:24,37.385s,FAILED
+"openBrowser("""")",Firefox 66.0,Open browser,2019-03-27 14:46:47,2019-03-27 14:47:14,26.550s,PASSED
+navigateToUrl(G_URL),Firefox 66.0,Navigate to url,2019-03-27 14:47:14,2019-03-27 14:47:23,9.221s,PASSED
+"setText(findTestObject(""Object Repository/LoginObjectRepository/input_PRU_username""), ""ahmadfa"")",Firefox 66.0,Mengisi field username,2019-03-27 14:47:23,2019-03-27 14:47:23,0.214s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/LoginObjectRepository/input_PRU_password""), ""p4y+y39Ir5N5JYrRUXcXiQ=="")",Firefox 66.0,Mengisi field password,2019-03-27 14:47:23,2019-03-27 14:47:23,0.107s,PASSED
+"click(findTestObject(""Object Repository/LoginObjectRepository/span_Login""))",Firefox 66.0,Klik button login,2019-03-27 14:47:23,2019-03-27 14:47:24,0.323s,PASSED
+"verifyTextPresent(""Login Failed"", false)",Firefox 66.0,Verifikasi bahwa user memang tidak berhasil login,2019-03-27 14:47:24,2019-03-27 14:47:24,0.588s,FAILED
+,,,,,,
+Test Cases/Login Test Case/LoginWithUsernameValid_PasswordValid,Firefox 66.0,Login with username and password valid,2019-03-27 14:47:24,2019-03-27 14:48:02,37.413s,PASSED
+"openBrowser("""")",Firefox 66.0,Open browser,2019-03-27 14:47:25,2019-03-27 14:47:51,26.368s,PASSED
+navigateToUrl(G_URL),Firefox 66.0,Navigate to url,2019-03-27 14:47:51,2019-03-27 14:48:01,9.908s,PASSED
+"setText(findTestObject(""Object Repository/LoginObjectRepository/input_PRU_username""), ""ahmadfa"")",Firefox 66.0,Mengisi field username,2019-03-27 14:48:01,2019-03-27 14:48:01,0.217s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/LoginObjectRepository/input_PRU_password""), ""p4y+y39Ir5Pr+DHIKlVoLw=="")",Firefox 66.0,Mengisi field password,2019-03-27 14:48:01,2019-03-27 14:48:01,0.102s,PASSED
+"click(findTestObject(""Object Repository/LoginObjectRepository/span_Login""))",Firefox 66.0,Klik button login,2019-03-27 14:48:01,2019-03-27 14:48:02,0.307s,PASSED
