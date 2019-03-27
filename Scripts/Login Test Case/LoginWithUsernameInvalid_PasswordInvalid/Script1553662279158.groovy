@@ -30,6 +30,6 @@ WebUI.setEncryptedText(findTestObject('Object Repository/LoginObjectRepository/i
 
 'Klik button login'
 WebUI.click(findTestObject('Object Repository/LoginObjectRepository/span_Login'))
-//ajsaskasa
+
 'Wait for failed message to be present'
 WebUI.waitForElementPresent(findTestObject('Object Repository/LoginObjectRepository/h2_Login Failed'), 10)
