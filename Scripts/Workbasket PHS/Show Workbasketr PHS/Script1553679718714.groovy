@@ -15,3 +15,7 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('Login Test Case/LoginWithUsernameValid_PasswordValid'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.click(findTestObject('Object Repository/WorkBasketPHSObjectRepository/ion-icon_Policy Holder Service_md-add-circle'))
+
+WebUI.click(findTestObject('Object Repository/WorkBasketPHSObjectRepository/div_Workbasket PHS'))
+
