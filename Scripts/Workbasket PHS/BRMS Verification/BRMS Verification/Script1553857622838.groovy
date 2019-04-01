@@ -2,6 +2,9 @@ import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+
+import org.stringtemplate.v4.compiler.STParser.element_return
+
 import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
@@ -13,10 +16,13 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Login Test Case/LoginWithUsernameValid_PasswordValid'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.click(findTestObject('Object Repository/WorkBasketPHSObjectRepository/ClientDetail/ion-icon_Policy Holder Service_md-add-circle'))
-
-WebUI.click(findTestObject('Object Repository/WorkBasketPHSObjectRepository/ClientDetail/ion-icon_Workbasket PHS_ios-arrow-down'))
-
-WebUI.click(findTestObject('Object Repository/WorkBasketPHSObjectRepository/ClientDetail/div_Client Detail'))
+WebUI.callTestCase(findTestCase('Workbasket PHS/Show Workbasketr PHS'), [:], FailureHandling.STOP_ON_FAILURE)
+boolean isPresent = WebUI.verifyElementPresent(findTestObject('WorkBasketPHSObjectRepository/BRMS Verification/Task Object'), 30)
+//boolean isNotPresent = WebUI.verifyElementNotPresent(findTestObject('WorkBasketPHSObjectRepository/BRMS Verification/Task Object'), 30)
+if(isPresent==true){
+	System.out.println("Element is founded")
+	WebUI.click(findTestObject('WorkBasketPHSObjectRepository/BRMS Verification/Task Object'))
+}
+else{
+	System.out.println("Element is not found")
+}

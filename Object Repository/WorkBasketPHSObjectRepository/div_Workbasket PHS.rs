@@ -9,25 +9,33 @@
          <key>XPATH</key>
          <value>//ion-menu[@id='subMenu']/div/ion-content/div[2]/ion-list/div/div/div[2]/div/div/button/div/div</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class = 'input-wrapper']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#subMenu > div:nth-child(1) > ion-content:nth-child(2) > div:nth-child(2) > ion-list:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(3) > div:nth-child(1) > button:nth-child(1) > div:nth-child(1) > div:nth-child(1)</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>CSS</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>input-wrapper</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
@@ -42,7 +50,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;subMenu&quot;)/div[@class=&quot;menu-inner&quot;]/ion-content[@class=&quot;content content-ios&quot;]/div[@class=&quot;scroll-content&quot;]/ion-list[@class=&quot;list list-ios&quot;]/div[1]/div[1]/div[2]/div[@class=&quot;main-menu-child&quot;]/div[1]/button[@class=&quot;item item-block item-ios activated&quot;]/div[@class=&quot;item-inner&quot;]/div[@class=&quot;input-wrapper&quot;]</value>
+      <value>id(&quot;subMenu&quot;)/div[@class=&quot;menu-inner&quot;]/ion-content[@class=&quot;content content-ios&quot;]/div[@class=&quot;scroll-content&quot;]/ion-list[@class=&quot;list list-ios&quot;]/div[1]/div[1]/div[2]/div[@class=&quot;main-menu-child&quot;]/div[1]/button[@class=&quot;item item-block item-ios&quot;]/div[@class=&quot;item-inner&quot;]/div[@class=&quot;input-wrapper&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

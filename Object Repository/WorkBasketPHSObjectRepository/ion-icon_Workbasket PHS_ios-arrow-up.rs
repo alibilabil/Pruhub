@@ -1,21 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>ion-icon_Policy Holder Service_md-add-circle</name>
+   <name>ion-icon_Workbasket PHS_ios-arrow-up</name>
    <tag></tag>
-   <elementGuidId>e8244832-a358-4dba-aea0-56128fd6a883</elementGuidId>
+   <elementGuidId>aa40f751-83ce-494b-ba2d-09da9e8b10e2</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//ion-icon[@name='md-add-circle'])[2]</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value></value>
-      </entry>
-      <entry>
-         <key>CSS</key>
-         <value>#subMenu > div:nth-child(1) > ion-content:nth-child(2) > div:nth-child(2) > ion-list:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > ion-icon:nth-child(2)</value>
+         <value>//ion-icon[@name='ios-arrow-up']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -32,7 +24,7 @@
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>md-add-circle</value>
+      <value>ios-arrow-up</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,76 +38,69 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>icon icon-ios ion-md-add-circle active</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>ng-reflect-ng-class</name>
-      <type>Main</type>
-      <value>[object Object]</value>
+      <value>icon icon-ios ion-ios-arrow-up</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>aria-label</name>
       <type>Main</type>
-      <value>add circle</value>
+      <value>arrow up</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>ng-reflect-name</name>
       <type>Main</type>
-      <value>md-add-circle</value>
+      <value>ios-arrow-up</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;subMenu&quot;)/div[@class=&quot;menu-inner&quot;]/ion-content[@class=&quot;content content-ios&quot;]/div[@class=&quot;scroll-content&quot;]/ion-list[@class=&quot;list list-ios&quot;]/div[1]/div[1]/div[2]/ion-icon[@class=&quot;icon icon-ios ion-md-add-circle active&quot;]</value>
+      <value>id(&quot;subMenu&quot;)/div[@class=&quot;menu-inner&quot;]/ion-content[@class=&quot;content content-ios&quot;]/div[@class=&quot;scroll-content&quot;]/ion-list[@class=&quot;list list-ios&quot;]/div[1]/div[1]/div[2]/div[@class=&quot;main-menu-child&quot;]/div[1]/ion-icon[@class=&quot;icon icon-ios ion-ios-arrow-up&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
-      <value>(//ion-icon[@name='md-add-circle'])[2]</value>
+      <value>//ion-icon[@name='ios-arrow-up']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
-      <value>//ion-menu[@id='subMenu']/div/ion-content/div[2]/ion-list/div/div/div[2]/ion-icon</value>
+      <value>//ion-menu[@id='subMenu']/div/ion-content/div[2]/ion-list/div/div/div[2]/div/div/ion-icon</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Policy Holder Service'])[1]/following::ion-icon[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Workbasket PHS'])[1]/following::ion-icon[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Unidentify Medical Data'])[1]/following::ion-icon[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Policy Holder Service'])[1]/following::ion-icon[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Workbasket PHS'])[1]/preceding::ion-icon[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='BRMS Verification'])[1]/preceding::ion-icon[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='BRMS Verification'])[1]/preceding::ion-icon[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Client Detail'])[1]/preceding::ion-icon[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
-      <value>//div[2]/ion-icon</value>
+      <value>//div[2]/div/div/ion-icon</value>
    </webElementXpaths>
 </WebElementEntity>

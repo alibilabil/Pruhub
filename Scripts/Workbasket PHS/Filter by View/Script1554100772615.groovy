@@ -13,10 +13,7 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Login Test Case/LoginWithUsernameValid_PasswordValid'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Workbasket PHS/Show Workbasketr PHS'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/WorkBasketPHSObjectRepository/ClientDetail/ion-icon_Policy Holder Service_md-add-circle'))
+WebUI.selectOptionByValue(findTestObject('WorkBasketPHSObjectRepository/ViewByObject'), 'Multiple Transaction', false, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/WorkBasketPHSObjectRepository/ClientDetail/ion-icon_Workbasket PHS_ios-arrow-down'))
-
-WebUI.click(findTestObject('Object Repository/WorkBasketPHSObjectRepository/ClientDetail/div_Client Detail'))

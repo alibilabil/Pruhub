@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test case ini merupakan test case untuk melakukan filter terhadap task yang ada di workbasket dengan menggunakan fitur View By</description>
+   <name>Filter by View</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>37dcd462-9fee-4bb7-9158-4f7d52debf35</testCaseGuid>
+</TestCaseEntity>

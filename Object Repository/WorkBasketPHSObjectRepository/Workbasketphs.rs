@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Workbasketphs</name>
+   <tag></tag>
+   <elementGuidId>b91b8774-c324-4cb1-abce-c29b101e0af3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/ion-app/ng-component/ion-menu[1]/div/ion-content/div[2]/ion-list/div/div/div[2]/div/div/button/div[1]/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html/body/ion-app/ng-component/ion-menu[1]/div/ion-content/div[2]/ion-list/div/div/div[2]/div/div/button/div[1]/div</value>
+   </webElementProperties>
+</WebElementEntity>
