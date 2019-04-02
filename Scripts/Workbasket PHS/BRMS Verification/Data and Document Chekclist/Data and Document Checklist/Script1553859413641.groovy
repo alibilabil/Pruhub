@@ -25,26 +25,70 @@ WebUI.click(findTestObject('WorkBasketPHSObjectRepository/BRMS Verification/Data
 'Nomor Polis'
 def driver = DriverFactory.getWebDriver()
 
-def PolicyNumber() {
-    WebElement PolicyNumberElement = driver.findElement(ByTagName.xpath('/html/body/ion-app/ng-component/ion-nav/page-phs-workbasket-quotation/ion-content/div[2]/ion-grid/ion-row[2]/ion-col[2]/expandable[1]/div/div[1]/div/ion-label/div/ion-row/ion-col[1]/ion-item/div[1]/div/ion-input/input'))
+WebElement PolicyNumberElement = driver.findElement(ByTagName.xpath('/html/body/ion-app/ng-component/ion-nav/page-phs-workbasket-quotation/ion-content/div[2]/ion-grid/ion-row[2]/ion-col[2]/expandable[1]/div/div[1]/div/ion-label/div/ion-row/ion-col[1]/ion-item/div[1]/div/ion-input/input'))
 
-    if (WebUI.verifyEqual(PolicyNumberElement.getAttribute('value'), '')) {
-        WebUI.setText(findTestObject('WorkBasketPHSObjectRepository/BRMS Verification/Data and Document Chechlist/PolicyNumberObject'), 
-            '12345678')
-    } else {
-        throw new Exception('test')
-    }
+String PolicyNumberValue = PolicyNumberElement.getAttribute('value')
+
+if (PolicyNumberValue.isEmpty()) {
+    WebUI.setText(findTestObject('WorkBasketPHSObjectRepository/BRMS Verification/Data and Document Chechlist/Data Pemegang Polis/PolicyNumberObject'), 
+        '12345678')
+} else {
+    System.out.println('Field sudah terisi')
 }
 
-def PolicyName() {
-    WebElement PolicyNameElement = driver.findElement(ByTagName.xpath('/html/body/ion-app/ng-component/ion-nav/page-phs-workbasket-quotation/ion-content/div[2]/ion-grid/ion-row[2]/ion-col[2]/expandable[1]/div/div[1]/div/ion-label/div/ion-row/ion-col[2]/ion-item/div[1]/div/ion-input/input'))
+WebElement PolicyNameElement = driver.findElement(ByTagName.xpath('/html/body/ion-app/ng-component/ion-nav/page-phs-workbasket-quotation/ion-content/div[2]/ion-grid/ion-row[2]/ion-col[2]/expandable[1]/div/div[1]/div/ion-label/div/ion-row/ion-col[2]/ion-item/div[1]/div/ion-input/input'))
 
-    if (WebUI.verifyEqual(PolicyNameElement.getAttribute('value'), '')) {
-        WebUI.setText(findTestObject('WorkBasketPHSObjectRepository/BRMS Verification/Data and Document Chechlist/PolicyName'), 
-            'Nama Test')
-    }
-	else {
-		throw new Exception('test')
-	}
+String PolicyNameValue = PolicyNameElement.getAttribute('value')
+
+if (PolicyNameValue.isEmpty()) {
+    WebUI.setText(findTestObject('WorkBasketPHSObjectRepository/BRMS Verification/Data and Document Chechlist/Data Pemegang Polis/PolicyName'), 
+        'Nama Test')
+} else {
+    System.out.println('Field sudah terisi')
+}
+
+WebUI.click(findTestObject('WorkBasketPHSObjectRepository/BRMS Verification/Data and Document Chechlist/Data Pembayar Kontribusi/DPKDropDownObject'))
+
+//Nama Tertanggung Utama
+WebElement NamaTertanggungUtama = driver.findElement(ByTagName.xpath('/html/body/ion-app/ng-component/ion-nav/page-phs-workbasket-quotation/ion-content/div[2]/ion-grid/ion-row[2]/ion-col[2]/expandable[2]/div/div[1]/div/ion-label/div/ion-row[1]/ion-col[1]/ion-item/div[1]/div/ion-input/input'))
+
+String NTUValue = NamaTertanggungUtama.getAttribute('value')
+
+if (NTUValue.isEmpty()) {
+    WebUI.setText(findTestObject('WorkBasketPHSObjectRepository/BRMS Verification/Data and Document Chechlist/Data Pembayar Kontribusi/NamaTertanggungUtama'), 
+        'Nama Tertanggung Utama')
+} else {
+    System.out.println('Field sudah terisi')
+}
+
+'Pekerjaan Tertanggung Utama'
+WebUI.click(findTestObject('WorkBasketPHSObjectRepository/BRMS Verification/Data and Document Chechlist/Data Pembayar Kontribusi/PekerjaanObject'))
+
+//WebUI.click(findTestObject('WorkBasketPHSObjectRepository/BRMS Verification/Data and Document Chechlist/Data Pembayar Kontribusi/PenjagaBinatang'))
+
+WebUI.selectOptionByValue(findTestObject('WorkBasketPHSObjectRepository/BRMS Verification/Data and Document Chechlist/Data Pembayar Kontribusi/PekerjaanObject'), 
+    'Penjaga binatang di Kebun Binatang', false)
+'Kelas Pekerjaan Tertanggung Utama'
+WebElement KelasPekerjaanTU = driver.findElement(ByTagName.xpath('/html/body/ion-app/ng-component/ion-nav/page-phs-workbasket-quotation/ion-content/div[2]/ion-grid/ion-row[2]/ion-col[2]/expandable[2]/div/div[1]/div/ion-label/div/ion-row[1]/ion-col[3]/ion-item/div[1]/div/ion-input/input'))
+
+String KelasPekerjaanTUValue = KelasPekerjaanTU.getAttribute('value')
+
+if (KelasPekerjaanTUValue.isEmpty()) {
+    WebUI.setText(findTestObject('WorkBasketPHSObjectRepository/BRMS Verification/Data and Document Chechlist/Data Pembayar Kontribusi/KelasPekerjaan'), 
+        'Nama Tertanggung Utama')
+} else {
+    System.out.println('Field sudah terisi')
+}
+
+'Usia tahun berikutnya Tertanggung Utama'
+WebElement UsiaTU = driver.findElement(ByTagName.xpath('//html/body/ion-app/ng-component/ion-nav/page-phs-workbasket-quotation/ion-content/div[2]/ion-grid/ion-row[2]/ion-col[2]/expandable[2]/div/div[1]/div/ion-label/div/ion-row[1]/ion-col[4]/ion-item/div[1]/div/ion-input/input'))
+
+String UsiaTUValue = UsiaTU.getAttribute('value')
+
+if (UsiaTUValue.isEmpty()) {
+    WebUI.setText(findTestObject('WorkBasketPHSObjectRepository/BRMS Verification/Data and Document Chechlist/Data Pembayar Kontribusi/UsiaTahunBerikutnya'), 
+        'Nama Tertanggung Utama')
+} else {
+    System.out.println('Field sudah terisi')
 }
 

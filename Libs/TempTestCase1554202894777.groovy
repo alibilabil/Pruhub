@@ -14,7 +14,7 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.m
 DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.cucumber.keyword.internal.CucumberDriverCleaner())
 
 
-RunConfiguration.setExecutionSettingFile('C:\\Users\\c19679\\AppData\\Local\\Temp\\Katalon\\Test Cases\\Workbasket PHS\\BRMS Verification\\Data and Document Chekclist\\Data and Document Checklist\\20190401_184959\\execution.properties')
+RunConfiguration.setExecutionSettingFile('C:\\Users\\c19679\\AppData\\Local\\Temp\\Katalon\\Test Cases\\Workbasket PHS\\BRMS Verification\\Data and Document Chekclist\\Data and Document Checklist\\20190402_190134\\execution.properties')
 
 TestCaseMain.beforeStart()
 

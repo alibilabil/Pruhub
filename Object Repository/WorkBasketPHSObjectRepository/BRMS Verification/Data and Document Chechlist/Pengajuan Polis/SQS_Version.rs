@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>SQS_Version</name>
+   <tag></tag>
+   <elementGuidId>2aaa7b9c-2673-47fd-b453-d681b4d12916</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/ion-app/ng-component/ion-nav/page-phs-workbasket-quotation/ion-content/div[2]/ion-grid/ion-row[2]/ion-col[2]/expandable[4]/div/div[1]/div/ion-label/div/ion-row/ion-col[7]/ion-item/div[1]/div/ion-input/input</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html/body/ion-app/ng-component/ion-nav/page-phs-workbasket-quotation/ion-content/div[2]/ion-grid/ion-row[2]/ion-col[2]/expandable[4]/div/div[1]/div/ion-label/div/ion-row/ion-col[7]/ion-item/div[1]/div/ion-input/input</value>
+   </webElementProperties>
+</WebElementEntity>
