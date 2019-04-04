@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>BD_Icon_TU</name>
+   <tag></tag>
+   <elementGuidId>0f66884c-45d0-480f-87d8-685cb2aa26ac</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>#datetime-83-0</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html/body/ion-app/ng-component/ion-nav/page-phs-workbasket-quotation/ion-content/div[2]/ion-grid/ion-row[2]/ion-col[2]/expandable[2]/div/div[1]/div/ion-label/div/ion-row[1]/ion-col[5]/ion-item/div[1]/div/ion-datetime/button/span</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>css</name>
+      <type>Main</type>
+      <value>#datetime-83-0</value>
+   </webElementProperties>
+</WebElementEntity>

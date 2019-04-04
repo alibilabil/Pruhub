@@ -3,6 +3,8 @@ import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import org.openqa.selenium.By.ByTagName as ByTagName
+import org.stringtemplate.v4.compiler.STParser.element_return as element_return
+import org.bouncycastle.pqc.crypto.sphincs.Tree.leafaddr
 import org.openqa.selenium.WebElement as WebElement
 import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
@@ -65,9 +67,12 @@ if (NTUValue.isEmpty()) {
 WebUI.click(findTestObject('WorkBasketPHSObjectRepository/BRMS Verification/Data and Document Chechlist/Data Pembayar Kontribusi/PekerjaanObject'))
 
 //WebUI.click(findTestObject('WorkBasketPHSObjectRepository/BRMS Verification/Data and Document Chechlist/Data Pembayar Kontribusi/PenjagaBinatang'))
+WebUI.delay(1)
 
-WebUI.selectOptionByValue(findTestObject('WorkBasketPHSObjectRepository/BRMS Verification/Data and Document Chechlist/Data Pembayar Kontribusi/PekerjaanObject'), 
-    'Penjaga binatang di Kebun Binatang', false)
+WebUI.click(findTestObject('WorkBasketPHSObjectRepository/BRMS Verification/Data and Document Chechlist/Data Pembayar Kontribusi/PenjagaBinatang'))
+
+/*WebUI.selectOptionByValue(findTestObject('WorkBasketPHSObjectRepository/BRMS Verification/Data and Document Chechlist/Data Pembayar Kontribusi/PekerjaanObject'), 
+    'Penjaga binatang di Kebun Binatang', false)*/
 'Kelas Pekerjaan Tertanggung Utama'
 WebElement KelasPekerjaanTU = driver.findElement(ByTagName.xpath('/html/body/ion-app/ng-component/ion-nav/page-phs-workbasket-quotation/ion-content/div[2]/ion-grid/ion-row[2]/ion-col[2]/expandable[2]/div/div[1]/div/ion-label/div/ion-row[1]/ion-col[3]/ion-item/div[1]/div/ion-input/input'))
 
@@ -75,7 +80,7 @@ String KelasPekerjaanTUValue = KelasPekerjaanTU.getAttribute('value')
 
 if (KelasPekerjaanTUValue.isEmpty()) {
     WebUI.setText(findTestObject('WorkBasketPHSObjectRepository/BRMS Verification/Data and Document Chechlist/Data Pembayar Kontribusi/KelasPekerjaan'), 
-        'Nama Tertanggung Utama')
+        '3')
 } else {
     System.out.println('Field sudah terisi')
 }
@@ -87,8 +92,44 @@ String UsiaTUValue = UsiaTU.getAttribute('value')
 
 if (UsiaTUValue.isEmpty()) {
     WebUI.setText(findTestObject('WorkBasketPHSObjectRepository/BRMS Verification/Data and Document Chechlist/Data Pembayar Kontribusi/UsiaTahunBerikutnya'), 
-        'Nama Tertanggung Utama')
+        '25')
 } else {
     System.out.println('Field sudah terisi')
 }
 
+'Tanggal lahir tertanggung utama'
+/*WebUI.scrollToElement(findTestObject('WorkBasketPHSObjectRepository/BRMS Verification/Data and Document Chechlist/Data Pembayar Kontribusi/BD_Icon_TU'), 
+    0)
+WebUI.delay(1)
+WebUI.click(findTestObject('WorkBasketPHSObjectRepository/BRMS Verification/Data and Document Chechlist/Data Pembayar Kontribusi/BD_Icon_TU'))
+//int leftPostion = WebUI.getElementLeftPosition(findTestObject('Object Repository/WorkBasketPHSObjectRepository/BRMS Verification/Data and Document Chechlist/Data Pembayar Kontribusi/Tgl_TU'))
+//int topPosition = WebUI.getEle(findTestObject('Object Repository/WorkBasketPHSObjectRepository/BRMS Verification/Data and Document Chechlist/Data Pembayar Kontribusi/Tgl_TU'))
+//WebUI.scrollToPosition(620, 163)
+WebUI.delay(1)
+//WebUI.scrollToElement(findTestObject('Object Repository/WorkBasketPHSObjectRepository/BRMS Verification/Data and Document Chechlist/Data Pembayar Kontribusi/button_1997'), 3, FailureHandling.STOP_ON_FAILURE)
+WebUI.mouseOver(findTestObject('Object Repository/WorkBasketPHSObjectRepository/BRMS Verification/Data and Document Chechlist/Data Pembayar Kontribusi/button_1997'))
+WebUI.delay(1)
+//WebUI.scrollToElement(findTestObject('Object Repository/WorkBasketPHSObjectRepository/BRMS Verification/Data and Document Chechlist/Data Pembayar Kontribusi/button_03'), 3, FailureHandling.STOP_ON_FAILURE)
+WebUI.mouseOver(findTestObject('Object Repository/WorkBasketPHSObjectRepository/BRMS Verification/Data and Document Chechlist/Data Pembayar Kontribusi/button_03'))
+WebUI.delay(1)
+//WebUI.scrollToElement(findTestObject('Object Repository/WorkBasketPHSObjectRepository/BRMS Verification/Data and Document Chechlist/Data Pembayar Kontribusi/button_15'), 3, FailureHandling.STOP_ON_FAILURE)
+WebUI.mouseOver(findTestObject('Object Repository/WorkBasketPHSObjectRepository/BRMS Verification/Data and Document Chechlist/Data Pembayar Kontribusi/button_15'))
+WebUI.click(findTestObject('WorkBasketPHSObjectRepository/BRMS Verification/Data and Document Chechlist/Data Pembayar Kontribusi/Tgl_TU Done Button'))
+*/
+WebElement dateWidget = driver.findElement(ByTagName.xpath());
+List<WebElement> columns=dateWidget.findElements(ByTagName("td"));
+
+for (WebElement cell: columns){
+   //Select 13th Date
+   if (cell.getText().equals("13")){
+	   cell.
+	  cell.findElement(By.linkText("13")).click()
+	  break;
+ }
+
+'Jenis Kelamin tertanggung utama'
+/*WebUI.click(findTestObject('WorkBasketPHSObjectRepository/BRMS Verification/Data and Document Chechlist/Data Pembayar Kontribusi/Male'))
+
+WebUI.click(findTestObject('WorkBasketPHSObjectRepository/BRMS Verification/Data and Document Chechlist/Data Pembayar Kontribusi/TidakMerokok'))
+
+*/
